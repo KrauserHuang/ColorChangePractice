@@ -92,7 +92,7 @@ class ViewController: UIViewController {
             alphaSlider.value = Float.random(in: 0...1)
             //hairView的背景色跟著slider走
             hairView.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: CGFloat(alphaSlider.value))
-            eyesView.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 0)
+//            eyesView.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 0)
         case 1:
             hairView.alpha = 0
             //用.random來設定各個slider的變數
@@ -102,7 +102,7 @@ class ViewController: UIViewController {
             alphaSlider.value = Float.random(in: 0...1)
             //eyesView的背景色跟著slider走
             eyesView.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: CGFloat(alphaSlider.value))
-            hairView.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 0)
+//            hairView.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 0)
         default:
             return
         }
